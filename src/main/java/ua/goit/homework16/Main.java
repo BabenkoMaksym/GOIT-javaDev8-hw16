@@ -5,7 +5,6 @@ public class Main {
         GroceryStore groceryStore = new GroceryStore();
 
         Double price = groceryStore.calculateTotalCost(" ABCDABA");
-
         System.out.println(price);
     }
 }
